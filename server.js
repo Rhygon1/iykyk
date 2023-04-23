@@ -15,6 +15,10 @@ app.get('/name', (req, res) => {
     res.sendFile(__dirname + '/public/html/name.html');
 })
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/html/name.html');
+})
+
 app.get('/play', (req, res) => {
     res.sendFile(__dirname + '/public/html/play.html');
 })
