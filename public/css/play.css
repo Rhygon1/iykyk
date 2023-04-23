@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    font-family: Georgia, serif;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 242);
+}
+
+.main{
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.rounds{
+    margin-bottom: 20%
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+    border-radius: 20px;
+    border: 4px solid rgb(80, 80, 80);
+    background:rgb(0, 0, 0);
+}
+
+.question{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 8%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+
+.nameChange{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 20%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    height: 8%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 230, 230);
+}
+
+.players{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.player{
+    background-color: rgb(80, 80, 80);
+    width: 20%;
+    height: 160%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size:x-small;
+    color: rgb(240, 240, 240);
+}
+
+.owner{
+    width: 30%;
+    height: 190%;
+}
+
+@media only screen and (max-width: 767px) {
+    .main{
+        width: 70vw;
+    }
+    *{
+        font-size: small;
+    }
+    .player{
+        width: 30%
+    }
+    .owner{
+        width: 35%;
+        height: 190%;
+    }
+}

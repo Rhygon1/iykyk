@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    font-family: Georgia, serif;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 242);
+}
+
+.name{
+    width: 20%;
+    height: 5%;
+    margin: 1%;
+    border: 3px solid blue;
+    border-radius: 25px;
+    font-size: large;
+}
+
+button{
+    margin: 3%;
+    width: 15%;
+    height: 7%;
+    border: 3px solid blue;
+    border-radius: 25px;
+    font-size: small;
+}
+
+button:hover{
+    border: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .name{
+        width: 60%;
+    }
+    button{
+        width: 50%
+    }
+}
